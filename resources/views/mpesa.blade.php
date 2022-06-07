@@ -11,7 +11,7 @@
     <title>MPESA</title>
 </head>
 <body>
-    <form action="/pay" method="post" class="form-control row d-flex justify-content-center">
+    <form action="#" method="post" class="form-control row d-flex justify-content-center">
         <div class="col-6 shadow-lg m-2">
             <div class="input-group mt-1">
                 <span class="input-group-text">Name</span>
