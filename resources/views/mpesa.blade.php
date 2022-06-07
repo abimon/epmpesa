@@ -12,7 +12,7 @@
 </head>
 <body>
     <form action="/functions.php" method="post" class="form-control row d-flex justify-content-center">
-        <div class="col-6 shadow-lg">
+        <div class="col-6 shadow-lg m-2">
             <div class="input-group mt-1">
                 <span class="input-group-text">Name</span>
                 <input type="text" placeholder="First name" name="firstname" class="form-control">
@@ -26,7 +26,7 @@
                 <span class="input-group-text">Amount</span>
                 <input type="number" placeholder="Amount" name="amount" value="200" disabled class="form-control">
             </div>
-            <button type="submit" class="btn btn-success" name="pay">Pay</button>
+            <button type="submit" class="btn btn-success m-2" name="pay">Pay</button>
         </div>
     </form>
 </body>
