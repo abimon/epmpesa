@@ -51,7 +51,7 @@ class payments extends Controller
         $initiate_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
 
         # callback url
-        $CallBackURL = 'https://morning-basin-87523.herokuapp.com/callback';  
+        $CallBackURL = 'https://enigmatic-ravine-83412.herokuapp.com/callback';  
 
         $curl = curl_init($access_token_url);
         curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
