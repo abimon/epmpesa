@@ -11,17 +11,22 @@
     <title>MPESA</title>
 </head>
 <body>
-    <form action="" method="post" class="form-control row">
+    <form action="/functions.php" method="post" class="form-control row d-flex justify-content-center">
         <div class="col-6 shadow-lg">
-            <div class="input-group">
+            <div class="input-group mt-1">
                 <span class="input-group-text">Name</span>
                 <input type="text" placeholder="First name" name="firstname" class="form-control">
                 <input type="text" placeholder="Last name" name="lastname" class="form-control">
             </div>
-            <div class="input-group">
+            <div class="input-group mt-1">
                 <span class="input-group-text">Phone Number</span>
-                <input type="tel" placeholder="Phone" name="firstname" class="form-control">
+                <input type="tel" placeholder="Phone" name="phone" class="form-control">
             </div>
+            <div class="input-group mt-1">
+                <span class="input-group-text">Amount</span>
+                <input type="number" placeholder="Amount" name="amount" value="200" disabled class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success" name="pay">Pay</button>
         </div>
     </form>
 </body>
