@@ -11,7 +11,7 @@
     <title>MPESA</title>
 </head>
 <body>
-    <form action="#" method="post" class="form-control row d-flex justify-content-center">
+    <form action="" method="post" class="form-control row d-flex justify-content-center">
         @csrf
         <div class="col-6 shadow-lg m-2">
             <div class="input-group mt-1">
