@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\payments;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('mpesa');
 });
+Route::get('/callback', function () {
+    return view('callback');
+});
+Route::post("/pay",[payments::class,'pay']);
