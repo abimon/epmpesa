@@ -22,4 +22,4 @@ Route::get('/callback', function () {
 });
 Route::get("/pay",[mpesaController::class,'passcodegen']);
 Route::post('/new',[mpesaController::class,'newAccessToken']);
-Route::post('/stk',[mpesaController::class,'stkpush']);
+Route::get('/stk',[mpesaController::class,'stkpush']);
