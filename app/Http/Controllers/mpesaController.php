@@ -43,7 +43,7 @@ class mpesaController extends Controller
             "PartyA"=> '254701583807',
             "PartyB"=> 174379,
             "PhoneNumber"=> 254708374249,
-            "CallBackURL"=> "https://enigmatic-ravine-83412.herokuapp.com/callbackUrl",
+            "CallBackURL"=> "https://enigmatic-ravine-83412.herokuapp.com/callback",
             "AccountReference"=> "Trial EP push",
             "TransactionDesc"=> "Lipa na Mpesa trial" 
         ];
