@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\payments;
+use App\Http\Controllers\mpesaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,4 +20,6 @@ Route::get('/', function () {
 Route::get('/callback', function () {
     return view('callback');
 });
-Route::post("/pay",[payments::class,'pay']);
+Route::get("/pay",[mpesaController::class,'passcodegen']);
+Route::post('/new',[mpesaController::class,'newAccessToken']);
+Route::post('/stk',[mpesaController::class,'stkpush']);
